@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+distilbert-model/
+svm_smishing_pipeline.pkl
+index.html
+script.js
+styles.css
+distilbert-model/
+svm_smishing_pipeline.pkl
