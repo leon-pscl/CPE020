@@ -1,4 +1,3 @@
-// script.js — PhishGuard frontend logic
 
 const API_URL    = "http://127.0.0.1:8000/analyze";
 const analyzeBtn = document.getElementById("analyzeBtn");
