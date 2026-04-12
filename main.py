@@ -17,8 +17,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-SVM_MODEL_PATH       = Path("svm_smishing_pipeline.pkl")   # single pipeline file
-DISTILBERT_MODEL_DIR = Path("distilbert-model")            # folder with HuggingFace files
+SVM_MODEL_PATH       = Path("Models/svm_smishing_pipeline.pkl")   # single pipeline file
+DISTILBERT_MODEL_DIR = Path("Models/distilbert_final/distilbert_smishing_model_FINAL")  # folder with HuggingFace files
 
 # ── App ────────────────────────────────────────────────────────────────────────
 app = FastAPI(title="SMS Phishing Detector")
